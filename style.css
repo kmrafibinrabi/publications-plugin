@@ -1,0 +1,21 @@
+/* Responsive layout for tablets and mobile devices */
+@media screen and (max-width: 1024px) {
+    .card {
+        width: 45%; /* Two items per row on tablets */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%; /* One item per row on mobile devices */
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-responsive-collapse {
+        padding-right: 30px;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+}
